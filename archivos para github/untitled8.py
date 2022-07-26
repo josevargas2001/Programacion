@@ -1,11 +1,13 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jul 17 23:25:35 2022
+Created on Tue Jul 12 22:10:56 2022
 
-@author: Ryzen 5-20H2
+@author: veronicarodriguez
 """
 
-print(type(5))
-print(type(5.85))
-print(type('5'))
-print(type(False))
+print("La tabla del 6 es: ")
+for i in range (1,15+1):
+    print("6*",i,"=",6*i)
+    
+    

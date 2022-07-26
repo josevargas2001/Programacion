@@ -1,21 +1,14 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jul 17 23:13:58 2022
+Created on Tue Jul 12 22:00:23 2022
 
-@author: Ryzen 5-20H2
+@author: veronicarodriguez
 """
-a=int()
-b=str()
-c=float()
-d=bool()
-x=5
-print('El valor de x es:'+str(x))
-x=str(x)
-print(type(x))
-x=float(x)
-print(type(x))
-x=int(x)
-print(type(x))
-x=bool(x)
-print(type(x))
 
+print("La tabla del 6 es: ")
+
+for i in range(1,15+1):
+    
+    print("6*",i,"=",6*i)
+    

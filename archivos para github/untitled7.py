@@ -1,15 +1,14 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jul 17 23:22:57 2022
+Created on Tue Jul 12 22:05:24 2022
 
-@author: Ryzen 5-20H2
+@author: veronicarodriguez
 """
 
-variable=5
-palabra='Cisco'
-expresion=palabra*variable
-print(expresion)
-print('\n'*2)
-print('Otra linea')
-print('\n'*3)
-print('Hola mundo')
+factor=6
+desde=1
+hasta=15
+for f in range (desde,hasta+1):
+    print(f'{factor}*{f}={factor*f}')
+    
